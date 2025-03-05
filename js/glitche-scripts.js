@@ -97,7 +97,7 @@ $(function () {
 	/* On click mouse button, page scroll down */
 	$('.section').on('click', '.mouse_btn', function(){
 		$('body,html').animate({
-			scrollTop: height - 1
+			scrollTop: height * 1.051
 		}, 800);
 	});
 	
