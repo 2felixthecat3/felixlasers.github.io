@@ -1,0 +1,54 @@
+﻿.section.about .hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 3s;
+}
+
+.section.about .show{
+    opacity: 1;
+	filter:blur(0);
+	transform: translateX(0);
+  /* Initial state of animation */
+  -webkit-transform: perspective(400px);
+  transform: perspective(400px);
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  /* Set the animation properties */
+  -webkit-animation: lightSpeedIn 1.7s ease-in-out;
+  animation: lightSpeedIn 1.7s ease-in-out;
+}
+
+.title_inner.hidden{
+    -webkit-animation: lightSpeedInLeft 1.7s ease-in-out;
+    animation: lightSpeedInLeft 1.7s ease-in-out;
+}
+.image.show{
+    -webkit-animation: lightSpeedInLeft 2.6s ease-in-out;
+    animation: lightSpeedInLeft 2.6s ease-in-out;
+}
+.desc .show:nth-child(1) {
+    -webkit-animation: lightSpeedIn 1.7s ease-in-out;
+    animation: lightSpeedIn 1.7s ease-in-out;
+}
+.desc .show:nth-child(2) {
+    -webkit-animation: lightSpeedIn 2s ease-in-out;
+    animation: lightSpeedIn 2s ease-in-out;
+}
+.desc .show:nth-child(3) {
+    -webkit-animation: lightSpeedIn 2.3s ease-in-out;
+    animation: lightSpeedIn 2.3s ease-in-out;
+}
+.info-list.show.show{
+    -webkit-animation: lightSpeedIn 2.6s ease-in-out;
+    animation: lightSpeedIn 2.6s ease-in-out;
+}
+
+.section.resume .show{
+    -webkit-animation: zoomInUp 1s;
+    animation: zoomInUp 1s;
+}
+
+.section.skills .show{
+    -webkit-animation: zoomInLeft 1.5s;
+    animation: zoomInLeft 1.5s;   
+}
