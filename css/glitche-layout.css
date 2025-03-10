@@ -686,14 +686,16 @@ header .head-top .top-menu ul li.active .btn {
 @media (max-width: 600px) {
   .section.about{
     margin-top: 50%;
+  
   }
 
   .section.about .image {
+    display: block;
     left: 50%;
     box-shadow: 0 0 0px 0px rgba(0, 0, 0, .1);
     transition: 1s;
     width: 20%;
-    margin-right: 100%;
+    margin-bottom: 10%;
   }
   
   .section.about .image::before {
