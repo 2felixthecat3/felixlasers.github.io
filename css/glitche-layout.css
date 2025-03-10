@@ -790,7 +790,7 @@ header .head-top .top-menu ul li.active .btn {
 @media (max-width: 600px) {
   .section.about .desc {
     margin-left: 0;
-    margin-top: 85%;
+    margin-top: 5%;
     text-align: center;
   }
 
