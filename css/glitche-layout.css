@@ -592,7 +592,9 @@ header .head-top .top-menu ul li.active .btn {
 
 .section.about .mouse_btn2 .ion {
   position: relative;
+  text-align: center;
   top: 100px;
+  margin-top: 15%;
   animation: mouse-anim 1s ease-out 0s infinite;
 }
 
@@ -638,7 +640,8 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 .info-list {
-  margin-bottom: 42px;
+  margin-top: 42px;
+  margin-bottom: 42px
 }
 
 .info-list ul li {
