@@ -1,18 +1,20 @@
 ﻿.section.about .hidden{
     opacity: 0;
     transform: translateX(-100%);
-    transition: all 3s;
+    transition: 0;
 }
 
 .section.about .show{
     opacity: 1;
 	filter:blur(0);
 	transform: translateX(0);
+
   /* Initial state of animation */
   -webkit-transform: perspective(400px);
   transform: perspective(400px);
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
+
   /* Set the animation properties */
   -webkit-animation: lightSpeedIn 1.7s ease-in-out;
   animation: lightSpeedIn 1.7s ease-in-out;
