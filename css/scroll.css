@@ -1,14 +1,13 @@
 ﻿.section.about .hidden{
     opacity: 0;
-    transform: translateX(-100%);
-    transition: 0;
+    transition: all 3s;
 }
 
 .section.about .show{
     opacity: 1;
 	filter:blur(0);
 	transform: translateX(0);
-
+    
   /* Initial state of animation */
   -webkit-transform: perspective(400px);
   transform: perspective(400px);
