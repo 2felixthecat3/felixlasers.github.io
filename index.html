@@ -98,7 +98,10 @@
 						</div>
 					</div>
 					<div class="image box hidden">
-						<img src="images/profile.jpg" alt="" />
+						<picture>
+							<source type="image/webp" srcset="images/profile.webp">
+							<img src="images/profile.jpg" alt="describe image content" loading="lazy">
+						  </picture>
 					</div>
 					<div class="desc">
 						<p class = "hidden">
@@ -325,6 +328,7 @@
 	<script src="js/typed.js"></script>
 	<script src="js/magnific-popup.js"></script>
 	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
 	<script src="js/isotope.pkgd.js"></script>
 	<script src="js/glitche-scripts.js"></script>
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
