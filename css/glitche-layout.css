@@ -519,6 +519,7 @@ header .head-top .top-menu ul li.active .btn {
   transition: 1s;
   width: 25%;
   margin-right: 40px;
+  margin-bottom: 10px;
 }
 
 .section.about .image::before {
@@ -566,6 +567,7 @@ header .head-top .top-menu ul li.active .btn {
   bottom: -14px;
   left: -14px;
   z-index: 0;
+  margin-bottom: 40px;
 }
 .section.about .image:hover::after{
   transform: translate(-10px, 10px);

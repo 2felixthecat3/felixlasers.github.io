@@ -54,11 +54,10 @@
 }
 
 .mouse_btn .show{
-    -webkit-animation: animate__flash 1.5s;
-    animation: animate__flash 1.5s;   
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;   
 }
 .mouse_btn2 .show{
-    -webkit-animation: animate__flash 1.5s;
-    animation: animate__flasht 1.5s;   
-    
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;   
 }
