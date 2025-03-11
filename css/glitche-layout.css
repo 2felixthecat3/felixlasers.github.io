@@ -512,13 +512,6 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 /* 4. About */
-@media (max-width: 400px) {
-  .section.about {
-    text-align: center;
-    margin-top: 65%;
-  }
-
-}
 
 .section.about .image {
   float: left;
@@ -601,6 +594,11 @@ header .head-top .top-menu ul li.active .btn {
 
 @media (max-width: 400px) {
 
+  .section.about {
+    text-align: center;
+    margin-top: 65%;
+  }
+
   .section.about .image {
     float: left;
     left: 50%;
@@ -609,10 +607,11 @@ header .head-top .top-menu ul li.active .btn {
     width: 25%;
     margin-right: 50%;
   }
+
   
   .section.about .image::before {
     content: "";
-    position: center;
+    position: absolute;
     top: 0;
     left: 70%;
     width: 275%;
@@ -654,7 +653,6 @@ header .head-top .top-menu ul li.active .btn {
     transition: var(--transition);
     border: 2px solid #f26b38;
     bottom: -14px;
-    left: -100px;
     z-index: 0;
   }
   .section.about .image:hover::after{
@@ -686,11 +684,11 @@ header .head-top .top-menu ul li.active .btn {
 @media (max-width: 600px) {
   .section.about{
     margin-top: 50%;
-  
   }
 
   .section.about .image {
     display: block;
+    position:relative;
     left: 50%;
     box-shadow: 0 0 0px 0px rgba(0, 0, 0, .1);
     transition: 1s;
@@ -743,7 +741,6 @@ header .head-top .top-menu ul li.active .btn {
     transition: var(--transition);
     border: 2px solid #f26b38;
     bottom: -14px;
-    left: 74px;
     z-index: 0;
   }
   .section.about .image:hover::after{
